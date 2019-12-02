@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31ccf49dbc3249a4ab4bb8aa9952daf8, type: 3}
+  m_Name: Shape
+  m_EditorClassIdentifier: 
+  m_fPlanetRadius: 3
+  m_nlNoiseLayers:
+  - m_bEnabled: 1
+    m_bUseFirstLayerAsMask: 0
+    m_nsNoiseSettings:
+      m_ftFilterType: 0
+      m_snsSimpleNoiseSettings:
+        pNumLayers: 2
+        m_v3Centre: {x: 3.41, y: -3.28, z: -11}
+        m_fStrength: 0.04
+        m_fBaseRoughness: 0.62
+        m_fRoughness: 4.4
+        m_fPersistence: 0.65
+        m_fMinValue: 0.74
+      m_rnsRigidNoiseSettings:
+        pNumLayers: 0
+        m_v3Centre: {x: 0, y: 0, z: 0}
+        m_fStrength: 0
+        m_fBaseRoughness: 0
+        m_fRoughness: 0
+        m_fPersistence: 0
+        m_fMinValue: 0
+        m_fWeightMultiplier: 0
+  - m_bEnabled: 1
+    m_bUseFirstLayerAsMask: 1
+    m_nsNoiseSettings:
+      m_ftFilterType: 0
+      m_snsSimpleNoiseSettings:
+        pNumLayers: 4
+        m_v3Centre: {x: -14.36, y: 14.2, z: -52.85}
+        m_fStrength: 0.77
+        m_fBaseRoughness: 3.45
+        m_fRoughness: 1.45
+        m_fPersistence: 1
+        m_fMinValue: 1
+      m_rnsRigidNoiseSettings:
+        pNumLayers: 0
+        m_v3Centre: {x: 0, y: 0, z: 0}
+        m_fStrength: 0
+        m_fBaseRoughness: 0
+        m_fRoughness: 0
+        m_fPersistence: 0
+        m_fMinValue: 0
+        m_fWeightMultiplier: 0
+  - m_bEnabled: 1
+    m_bUseFirstLayerAsMask: 1
+    m_nsNoiseSettings:
+      m_ftFilterType: 1
+      m_snsSimpleNoiseSettings:
+        pNumLayers: 1
+        m_v3Centre: {x: 0, y: 0, z: 0}
+        m_fStrength: 1
+        m_fBaseRoughness: 1
+        m_fRoughness: 1
+        m_fPersistence: 0.5
+        m_fMinValue: 0
+      m_rnsRigidNoiseSettings:
+        pNumLayers: 4
+        m_v3Centre: {x: -44.78, y: 4.86, z: 36.86}
+        m_fStrength: 0.3
+        m_fBaseRoughness: 1.14
+        m_fRoughness: 2.58
+        m_fPersistence: 1.04
+        m_fMinValue: 0.79
+        m_fWeightMultiplier: 1.15
